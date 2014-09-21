@@ -22,6 +22,7 @@ Usage RSS
 1> rss:init().
 
 2> rss:url("http://del.icio.us/rss/popular/cats").
+
 {ok,[<<"Spectacular DIY Tree Branch Cat Tree "...>>,
      <<"Kittens and Mom Scenarios and How to Trap - Alley Cat Allies">>,
      <<"This Cat Is Better at Jenga Than Any of You">>,
@@ -38,6 +39,7 @@ Usage Delicious
 1> rss:init().
 
 2> delicious:popular("pies").
+
 [<<"Teeny Lamothe's Pear & Goat Cheese Tart | Serious Eats : Recipes">>,
  <<"www.howdini.com">>,
  <<"Diabetic Strawberry Rhubarb Pie | ThriftyFun">>,
