@@ -1,0 +1,12 @@
+{application, rss, [
+	{description, "Simple Erlang RSS Feed Reader"},
+	{vsn, "0.1.0"},
+	{modules, [rss, rss_parser, delicious]},
+	{registered, []},
+	{applications, [
+		kernel,
+		stdlib,
+		inets,
+		ssl
+	]}
+]}.
